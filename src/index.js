@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Features from './Features';
 import reportWebVitals from './reportWebVitals';
+import Declarative from './Declarative';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Features />
   </React.StrictMode>,
   document.getElementById('root')
 );
